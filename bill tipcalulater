@@ -1,0 +1,36 @@
+/*
+var fristBill, secondBill,thridBill;
+fristBill = 124;
+secondBill = 48;
+thridBill = 268;
+
+function tipCalulater(amount)
+{
+    if (amount < 50)
+    {
+     return amount * 0.2 ;
+    }
+    else if(amount < 50 && amount<= 200)
+        {
+            return amount * 0.15;
+    
+        }
+    else
+        {
+            return amount * 0.10;
+        }
+}
+
+var x = tipCalulater(fristBill);
+var y = tipCalulater(secondBill);
+var z = tipCalulater(thridBill);
+console.log(x, y, z);
+
+tips = [x, y, z];
+console.log(tips);
+var addition1 = fristBill + x;
+var addition2 = secondBill + y;
+var addition3 = thridBill + z;
+totalAmount = [addition1, addition2, addition3];
+console.log(totalAmount);
+*/
